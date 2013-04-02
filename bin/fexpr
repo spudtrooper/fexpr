@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+begin
+  require File.join File.dirname(__FILE__), '..', 'lib', 'fexpr'
+rescue
+  require 'fexpr'
+end
+
+FExpr::Main.new.main ARGV
