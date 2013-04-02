@@ -6,7 +6,7 @@ module FExpr
       puts real_main argv
     end
 
-    # Void -> Float
+    # Void -> String
     def real_main(argv)
 
       # maybe help
