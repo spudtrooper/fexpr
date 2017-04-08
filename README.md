@@ -1,1 +1,1 @@
-Floting point version of expr
+Floating point version of expr
